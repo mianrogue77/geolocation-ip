@@ -1,0 +1,5 @@
+#!/bin/sh
+./mvnw clean install
+
+docker build -t springio/geolocation-ip .
+docker run -p 8080:8080 springio/geolocation-ip

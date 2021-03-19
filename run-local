@@ -1,0 +1,2 @@
+#!/bin/sh
+./mvnw package && java -jar target/geolocation-ip-0.0.1-SNAPSHOT.jar
